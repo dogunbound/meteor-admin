@@ -1,5 +1,5 @@
 Package.describe({
-	name: "dogunbound:yogiben-admin",
+	name: "dogunbound:meteor-admin",
   summary: "A complete admin dashboard solution",
   version: "1.2.8",
   git: "https://github.com/yogiben/meteor-admin"
@@ -33,7 +33,7 @@ Package.on_use(function(api){
 
   api.use(['less@1.0.0 || 2.5.0','session','jquery','templating'],'client')
 
-  api.use(['email'],'server')
+  api.use(['email@2.0.0'],'server')
 
   api.add_files([
     'lib/both/AdminDashboard.coffee',
