@@ -17,8 +17,8 @@ Package.on_use(function(api){
     'underscore',
     'reactive-var',
     'check',
-    'aldeed:collection2@2.5.0',
-    'aldeed:autoform@5.5.1',
+    'aldeed:collection2@3.0.0',
+    'aldeed:autoform@7.0.0',
     'aldeed:template-extension@4.0.0',
     'alanning:roles@1.2.13',
     'raix:handlebar-helpers@0.2.5',
@@ -27,7 +27,8 @@ Package.on_use(function(api){
     'aldeed:tabular@1.4.0',
     'lamhieu:meteorx',
     'zimme:active-route@2.3.2',
-    'mfactory:admin-lte@0.0.2'
+    'mfactory:admin-lte@0.0.2',
+		'aldeed:simple-schema@1.5.4'
     ],
     both);
 
