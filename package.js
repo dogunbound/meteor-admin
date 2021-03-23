@@ -1,7 +1,7 @@
 Package.describe({
 	name: "dogunbound:meteor-admin",
   summary: "A complete admin dashboard solution",
-  version: "1.2.8",
+  version: "1.2.9",
   git: "https://github.com/yogiben/meteor-admin"
 });
 
@@ -9,7 +9,7 @@ Package.on_use(function(api){
 
   both = ['client','server']
 
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('METEOR@2.1');
 
   api.use(
     ['iron:router@1.0.9',
